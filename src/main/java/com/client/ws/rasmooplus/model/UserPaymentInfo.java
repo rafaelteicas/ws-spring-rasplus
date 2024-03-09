@@ -27,6 +27,7 @@ public class UserPaymentInfo {
     @Column(name = "card_expiration_month")
     private String cardExpirationMonth;
 
+    private Long installments;
 
     @Column(name = "card_expiration_year")
     private String cardExpirationYear;
